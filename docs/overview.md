@@ -51,12 +51,13 @@ Subnets are isolated to prevent lateral movement.
 Azure backbone ensures encrypted, private communication.
 
 5. Cost Estimation (Approx.)
-Component	Quantity	Estimated Monthly Cost
-VNets	2	Free
-Subnets	2	Free
-VMs (B1s)	2	~£10–£12 each
-Disks	2	~£3–£4 each
-VNet Peering	2	~£1–£2 total
+| Component | Quantity | Estimated Monthly Cost |
+| --- | --- | --- |
+| VNets | 2 | Free |
+| Subnets | 2 | Free |
+| VMs (B1s) | 2 | ~£10–£12 each |
+| Disks | 2 | ~£3–£4 each |
+| VNet Peering | 2 | ~£1–£2 total |
 
 
 Estimated total: ~£30–£35 per month
