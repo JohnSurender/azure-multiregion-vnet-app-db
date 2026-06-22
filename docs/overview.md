@@ -51,6 +51,7 @@ Subnets are isolated to prevent lateral movement.
 Azure backbone ensures encrypted, private communication.
 
 5. Cost Estimation (Approx.)
+   
 | Component | Quantity | Estimated Monthly Cost |
 | --- | --- | --- |
 | VNets | 2 | Free |
