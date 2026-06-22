@@ -1,1 +1,21 @@
+flowchart LR
+    subgraph Region1["Region 1 (UK South)"]
+        VNet1["VNet1"]
+        Subnet1["Subnet1"]
+        VM1["VM1"]
+        NSG1["NSG"]
+        VNet1 --> Subnet1 --> VM1
+        VM1 --> NSG1
+    end
+
+    subgraph Region2["Region 2 (UK West)"]
+        VNet2["VNet2"]
+        Subnet2["Subnet2"]
+        VM2["VM2"]
+        NSG2["NSG"]
+        VNet2 --> Subnet2 --> VM2
+        VM2 --> NSG2
+    end
+
+    VNet1 <--> VNet2
 
